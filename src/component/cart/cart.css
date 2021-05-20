@@ -1,0 +1,89 @@
+.cart {
+  width: 100%;
+}
+
+
+.cart_empty p {
+  flex-wrap: nowrap;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(180, 171, 171);
+}
+.cart_empty img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+/* cart with component */
+.cart-component {
+  display: flex;
+  flex-direction: column;
+}
+.cart-component .cart-header {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-component .cart-header i,
+h1 {
+  padding: 25px;
+  width: 25px;
+}
+/* .cart-component .prod-details { */
+/* } */
+.prod-details img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.prod-details .prod-name {
+  font-size: 20px;
+  text-align: left;
+  color: gray;
+  text-transform: capitalize;
+}
+.prod-details .inputbtn {
+  width: 70px;
+  text-align: left;
+}
+
+.prod-details .price {
+  font-size: 20px;
+  color: gray;
+}
+.prod-details .delete_prod {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.sub-total {
+  flex-wrap: nowrap;
+  height: 56px;
+  flex-direction: row;
+  padding: 5px;
+}
+.sub-total .sub-total-header {
+  justify-content: space-between;
+  text-align: left;
+  flex-grow: 4;
+  display: inline-block;
+}
+.sub-total .sub-total-header div {
+  margin-top: 0%;
+  font-size: 22px;
+  font-weight: lighter;
+}
+.sub-total .p {
+  font-size: 15px;
+  color: rgb(165, 164, 164);
+}
+.sub-total .total-amount {
+  width: 56px;
+  margin-right: 5px;
+  height: 100%;
+}
+.btnab {
+  color: #ffffff !important;
+  background-color: rgb(255, 88, 22) !important;
+}

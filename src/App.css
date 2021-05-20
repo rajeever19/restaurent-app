@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.font-8 {
+  margin-top: 10px;
+  font-size: 8px;
+  left: 0;
+}
+.font-12 {
+  margin-top: 10px;
+  left: 0;
+  font-size: 12px;
+}
+.font-25 {
+  left: 0;
+  margin-top: 10px;
+  font-size: 25px;
+  color: rgb(247, 213, 103);
+}
